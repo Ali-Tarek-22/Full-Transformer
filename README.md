@@ -73,7 +73,7 @@ For each decoder layer:
 
 * Add & Norm
 
-## 🟡 Masking
+### 🟡 Masking
 
 * The project includes a dedicated Masks class that generates:
 
