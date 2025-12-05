@@ -1,5 +1,8 @@
+from transformer import Transformer
+import torch
+import numpy as np
 
-
+# Load the dataset from Huggingface
 df = pd.read_csv("hf://datasets/salehalmansour/english-to-arabic-translate/en_ar_final.tsv", sep="\t")
 
 # Get all rows that contain at least one null value
@@ -404,4 +407,5 @@ sentence = translate(transformer, "I went there today")
 print(sentence)
 
 sentence = translate(transformer, "show me your strength")
+
 print(sentence)
